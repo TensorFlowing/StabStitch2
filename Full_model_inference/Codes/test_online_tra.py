@@ -431,7 +431,7 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--gpu', type=str, default='0')
-    parser.add_argument('--test_path', type=str, default='/opt/data/private/nl/Data/Tra-Dataset2/')
+    parser.add_argument('--test_path', type=str, default='/home/abel/Desktop/StabStitch2/TraditionalDataset/')
     parser.add_argument('--output_path', type=str, default='../results_tra/')
 
     # optional parameter: 'NORMAL' or 'FAST'

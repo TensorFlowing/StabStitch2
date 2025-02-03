@@ -1,10 +1,10 @@
-name: nl
-channels:
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-  - defaults
+name: StabStitch2
+# channels:
+#   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+#   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+#   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+#   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  # - defaults
 dependencies:
   - _anaconda_depends=2020.07=py38_0
   - _ipyw_jlab_nb_ext_conf=0.1.0=py38_0
@@ -353,8 +353,8 @@ dependencies:
     - tensorboard-data-server==0.6.1
     - tensorboard-plugin-wit==1.8.1
     - timm==0.4.9
-    - torch==1.13.1+cu116
-    - torchaudio==0.13.1+cu116
-    - torchvision==0.14.1+cu116
+    # - torch==1.13.1+cu116
+    # - torchaudio==0.13.1+cu116
+    # - torchvision==0.14.1+cu116
     - yacs==0.1.6
-prefix: /root/anaconda3/envs/nl
+# prefix: /root/anaconda3/envs/nl
